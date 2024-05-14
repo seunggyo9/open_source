@@ -1,0 +1,16 @@
+1. 병원과 관련된 공공데이터 자료
+- 공공데이터 포털에 "건강보험심사평가원_전국 병의원 및 약국 현황" 빅데이터 파일이 올라와 있음
+- 해당 파일은 2024년 3월 기준으로 조사 결과가 게시되어 있음
+- https://www.data.go.kr/data/15051059/fileData.do
+- 해당 엑셀 파일에서 지역을 제주로 설정한 결과, 1036개의 병의원이 나옴
+- 이 엑셀 파일을 기준으로 잡아서 병원 종류나, 지역 등등 구분을 한 뒤 웹크롤링을 진행하면 좋다고 생각함
+
+2. 웹크롤링 오픈소스
+- 웹크롤링 오픈소스는 scrapy나 셀레니움이 있고 해당 오픈소스를 활용한 예시는 인터넷에 다수 존재함
+(- 오픈소스 scrapy : https://jybaek.tistory.com/927 / - 오픈소스 셀레니움 : https://donghodazzi.tistory.com/305)
+
+3. 그외 자료
+- 네이버나 카카오에서 맵 api를 제공하고 있어 api를 활용할 수 있음
+- 어디에 위치하고 있는지까지 보여주고 싶다면 api를 활용해도 좋을 것 같음
+- 네이버 맵 api 관련 : https://www.ncloud.com/product/applicationService/maps
+- 카카오 맵 api 관련 : https://apis.map.kakao.com/
