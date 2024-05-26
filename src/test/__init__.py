@@ -1,3 +1,3 @@
-# mycrawler/__init__.py
+# __init__.py
 
 from .crawler import makePgNum, makeUrl
