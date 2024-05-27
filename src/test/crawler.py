@@ -1,11 +1,3 @@
-#크롤링시 필요한 라이브러리 불러오기
-from bs4 import BeautifulSoup
-import requests
-import re
-import datetime
-from tqdm import tqdm
-import sys
-
 # 페이지 url 형식에 맞게 바꾸어 주는 함수 만들기
   #입력된 수를 1, 11, 21, 31 ...만들어 주는 함수
 def makePgNum(num):
