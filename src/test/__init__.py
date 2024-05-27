@@ -1,3 +1,3 @@
 # __init__.py
 
-from .crawler import makeUrl
+from .mycal import myadd
