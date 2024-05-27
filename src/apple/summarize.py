@@ -1,3 +1,7 @@
+from collections import Counter
+from nltk.tokenize import word_tokenize
+import re
+
 def summarize_text(text, num_sentences=3):
     # 텍스트에서 구두점 제거 및 소문자로 변환
     text = re.sub(r'[^\w\s]', '', text.lower())
