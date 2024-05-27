@@ -1,3 +1,3 @@
 # __init__.py
 
-from .crawler import myadd
+from .crawler import summarize_article
