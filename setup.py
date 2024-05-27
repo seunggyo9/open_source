@@ -6,7 +6,6 @@ install_requires = [
     'pandas',
     'numpy',
     'nltk',
-    'nltk.tokenize',
     ]
 
 
@@ -18,7 +17,7 @@ setup (
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
     install_requires = install_requires,
-    author           = 'jhahn',
-    author_email     = 'jhahncs@gmail.com',
+    author           = 'seunggyo',
+    author_email     = 'wxcv47@naver.com',
     description      = 'Desc'
 )
