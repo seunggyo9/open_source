@@ -6,6 +6,7 @@ install_requires = [
     'pandas',
     'numpy',
     'nltk',
+    'networkx',
     ]
 
 
