@@ -1,4 +1,4 @@
-from mycrawler import make_pg_num, make_url
+from crawler import make_pg_num, make_url
 import requests
 from bs4 import BeautifulSoup
 
