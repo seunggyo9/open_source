@@ -1,7 +1,7 @@
 from apple import summarize_text
-import ntlk
-ntlk.download('punkt')
-ntlk.download('stopwords')
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # 사용 예시
 article_text = """
