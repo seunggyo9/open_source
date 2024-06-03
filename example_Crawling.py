@@ -18,3 +18,6 @@ print(response.status_code)
 print(f'******* {page_num}페이지 검색 결과입니다. *******')
 
 # 다루기 어려운 html 문자열을 html 태그
+
+
+// 참고 https://gojstudio.com/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%A7%81-%EC%98%88%EC%A0%9C/
