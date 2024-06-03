@@ -22,6 +22,7 @@
 #참고 사이트 : https://ai-creator.tistory.com/20
 
 
->> 추가적으로 kakao_uitils.py, res 파일이 디렉토리 내에 있는지 확인하세요
+>> 추가적으로 kakao_utils.py, res 파일이 디렉토리 내에 있는지 확인하세요
+>> kakao_utills.py와 res 파일이 없다면 https://ai-creator.tistory.com/36에 들어가 해당 파일을 다운받으세요
 
 
