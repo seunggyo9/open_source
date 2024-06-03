@@ -64,3 +64,7 @@ def send_message(filename, template):
     res = requests.post(url, data=payload, headers=headers)
 
     return res
+
+
+
+## 오픈소스 출처 : https://ai-creator.tistory.com/36 ##
