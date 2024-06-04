@@ -22,8 +22,13 @@ if response.status_code == 200:
     content_tag = soup.find('div', {'id': 'contents'})
     if content_tag:
         content = content_tag.get_text(strip=True)
+        # 점을 기준으로 분리하여 줄바꿈 추가
+        content = content.replace('.', '.\n')
     else:
         content = "Content not found"
+
+    print("Title:", title)
+    print("Content:", content)
 
     print("Title:", title)
     print("Content:", content)
