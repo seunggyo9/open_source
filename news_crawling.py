@@ -30,9 +30,6 @@ if response.status_code == 200:
     print("Title:", title)
     print("Content:", content)
 
-    print("Title:", title)
-    print("Content:", content)
-
     # Save to CSV file
     with open('article.csv', mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
