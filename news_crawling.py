@@ -19,7 +19,7 @@ if response.status_code == 200:
         title = "Title not found"
 
     # 기사 본문 크롤링 (예시)
-    content_tag = soup.find('div', {'id': 'contents'})
+    content_tag = soup.find('div', {'id': 'newsct_article'})
     if content_tag:
         content = content_tag.get_text(strip=True)
         # 점을 기준으로 분리하여 줄바꿈 추가
