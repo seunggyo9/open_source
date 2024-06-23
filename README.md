@@ -11,7 +11,7 @@
 
 ## 뉴스 크롤링 방법 과정
 
-#### 1. 구현 과정
+#### 1. 전체 구현 과정
 
 ![구현순서](https://github.com/seunggyo9/open_source/blob/master/image/%EA%B5%AC%ED%98%84%EC%88%9C%EC%84%9C.png)
 
