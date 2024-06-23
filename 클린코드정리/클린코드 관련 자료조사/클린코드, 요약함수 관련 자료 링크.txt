@@ -1,0 +1,19 @@
+클린코드, 요약함수 관련 자료 링크
+
+1. [개발서적] 클린 코드(Clean Code) 핵심 요약 및 정리 - MangKyu's Diary:티스토리
+- https://mangkyu.tistory.com/132
+
+2. [Pandas]판다스 데이터 집계함수(Summary Function) - 제리제리
+- https://jerry-style.tistory.com/entry/Pandas%ED%8C%90%EB%8B%A4%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98Summary-Function
+
+3. Python Clean Code 정리 - patrick610
+- https://hipster4020.tistory.com/192
+
+4. Clean-Code-in-Python - silvermaking
+- https://github.com/silvermaking/Clean-Code-in-Python
+
+5. CleanCodeInPython -  dream2globe
+- https://github.com/dream2globe/CleanCodeInPython
+
+6. clean-code-python - zedr
+- https://github.com/zedr/clean-code-python
