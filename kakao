@@ -1,0 +1,23 @@
+import requests
+
+url = 'https://kauth.kakao.com/oauth/token'
+rest_api_key = '411503d9d9ee7b73d3b46fdbb75a3911'
+redirect_uri = 'https://example.com/oauth'
+authorize_code =  '인가코드' 
+
+data = {
+    'grant_type':'authorization_code',
+    'client_id':rest_api_key,
+    'redirect_uri':redirect_uri,
+    'code': authorize_code,
+    }
+
+response = requests.post(url, data=data)
+tokens = response.json()
+print(tokens)
+
+# json 저장
+import json
+#1.
+with open(r"D:\heeyeon\codes\kakao_code.json","w") as fp:
+    json.dump(tokens, fp)
